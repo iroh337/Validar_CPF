@@ -33,18 +33,18 @@ body {
 }
 
 #button_go:hover {
-    background-color: rgb(3, 26, 177);
+    background-color: rgb(5, 146, 59);
     color: aliceblue;
 }
 
 #input{
     outline: none;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 10px;
     margin: 0;
     border: 0;
     margin: 1px 0px 20px 0px;
-    padding: 5px;
+    padding: 7px 0px 7px 8px;
 }
 
 #par{
@@ -52,12 +52,13 @@ body {
 }
 
 .resp {
-    margin-top: 40px;
-    color: black;
+    margin-top: 20px;
+    color: rgb(6, 108, 36);
     font-weight: bold;
     width: 100%;
     text-align: center;
     padding: 10px 0px 10px 0px;
+    outline: none;
 }
 
 footer{
