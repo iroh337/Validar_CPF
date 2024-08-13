@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    min-width: 444px;
+    min-height: 500px;
+    padding: 0;
+    margin: 0;
+    min-height: 700px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200%;
+    font-style: normal;
+    background-color: rgb(24, 82, 82);
+}
+
+/* display: flex; */
+/* flex-direction: column; */
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -140%);
+}
+
+#button_go {
+    border-radius: 10px;
+    border: 0;
+    padding: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+#button_go:hover {
+    background-color: rgb(3, 26, 177);
+    color: aliceblue;
+}
+
+#input{
+    width: 100%;
+    border-radius: 2rem;
+    margin: 0;
+    border: 0;
+    margin: 1px 0px 20px 0px;
+    padding: 5px;
+}
+
+#par{
+    color: aliceblue;
+}
+
+.resp {
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+footer{
+    margin: 2rem;
+    color: aliceblue;
+}
+
+/* @media () */
