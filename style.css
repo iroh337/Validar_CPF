@@ -12,17 +12,30 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     /* min-height: ; */
 }
+#option_check{
+    justify-content: initial;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+
+#inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
 
 #button_go {
-    border-radius: 10px;
     border: 0;
     padding: 10px;
-    margin-left: 4px;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -36,12 +49,10 @@ body {
 
 #input{
     outline: none;
-    width: 100%;
-    border-radius: 10px;
+    width: 98%;
     margin: 0;
     border: 0;
-    margin: 1px 0px 20px 0px;
-    padding: 7px 0px 7px 8px;
+    padding: 10px 0px 10px 8px;
 }
 
 #par{
@@ -49,7 +60,8 @@ body {
 }
 
 .resp {
-    margin-top: 20px;
+    /* border-radius: 5px; */
+    border: 0;
     color: rgb(6, 108, 36);
     font-weight: bold;
     width: 100%;

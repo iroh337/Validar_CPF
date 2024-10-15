@@ -9,8 +9,15 @@
 </head>
 <body>
     <div id="container">
-        <div>
-            <p id="par">CPF:</p>
+        <div id="option_check" >
+            <p id="par">Selecione:</p>
+            <select id="seletor" name="cpf_cnpj" id="select_cpf_or_cnpj">
+                <option value="cpf">CPF</option>
+                <option value="cnpj">CNPJ</option>
+            </select>    
+        </div>
+
+        <div id="inside">
             <input id="input" type="text" placeholder="CPF">
             <button id="button_go">GO</button>
             <input class="resp" readonly></input>
