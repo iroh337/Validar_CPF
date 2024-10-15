@@ -75,4 +75,13 @@ footer{
     color: aliceblue;
 }
 
-/* @media () */
+@media (max-width: 600px) {
+    #inside{
+        width: 300px;
+    }
+}
+@media (max-width: 300px) {
+    #inside{
+        width: 100px;
+    }
+}
